@@ -1,3 +1,4 @@
+
 const FirstPage = () => {
   return (
     <div className="relative w-[360px] h-[640px] bg-[#fff] overflow-hidden">
@@ -31,14 +32,9 @@ const FirstPage = () => {
             src="./img//FirstPage/Group 1618_45.png"
             alt="first"
           ></img>
-          <button
-            onClick={() => {
-              window.open("/main");
-            }}
-            className="absolute -translate-x-1/2 left-1/2 top-[10px] text-[16px] leading-[120%] tracking-[-0.02em] font-['Noto_Sans_KR'] font-medium text-[#6b6b6b] whitespace-nowrap"
-          >
+          <div className="absolute -translate-x-1/2 left-1/2 top-[10px] text-[16px] leading-[120%] tracking-[-0.02em] font-['Noto_Sans_KR'] font-medium text-[#6b6b6b] whitespace-nowrap">
             로그인
-          </button>
+          </div>
           <div className="absolute -translate-x-1/2 left-1/2 top-[56px] text-[13px] leading-[120%] tracking-[-0.02em] font-['Noto_Sans_KR'] font-medium text-[#6b6b6b] whitespace-nowrap">
             회원가입
           </div>
